@@ -1,0 +1,32 @@
+group 'org.indepth'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'groovy'
+apply plugin: 'java'
+apply plugin: 'maven'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+  mavenCentral()
+  jcenter()
+}
+
+sourceSets {
+  main {
+    java.srcDir "src/main/java"
+  }
+  test {
+    java.srcDir "src/test/groovy"
+  }
+}
+
+dependencies {
+  compile gradleApi()
+  compile("org.slf4j:slf4j-api:${slf4jVersion}")
+  testRuntime("ch.qos.logback:logback-core:${logbackCoreVersion}")
+  testRuntime("ch.qos.logback:logback-classic:${logbackClassicVersion}")
+  testCompile("org.codehaus.groovy:groovy-all:2.4.7")
+  testCompile("org.spockframework:spock-core:1.0-groovy-2.4")
+}
