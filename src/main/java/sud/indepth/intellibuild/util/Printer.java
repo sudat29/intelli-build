@@ -1,4 +1,4 @@
-package org.indepth.intellibuild.util;
+package sud.indepth.intellibuild.util;
 
 import java.util.List;
 

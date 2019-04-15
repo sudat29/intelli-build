@@ -1,10 +1,10 @@
-package org.indepth.intellibuild
+package sud.indepth.intellibuild
 
 import groovy.util.logging.Slf4j
 import org.gradle.api.Project
 import org.gradle.testfixtures.ProjectBuilder
-import org.indepth.intellibuild.task.IntelliBuildTask
 import spock.lang.Specification
+import sud.indepth.intellibuild.task.IntelliBuildTask
 
 /**
  * Created by sud on 13/4/19.

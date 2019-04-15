@@ -1,9 +1,9 @@
-package org.indepth.intellibuild;
+package sud.indepth.intellibuild;
 
 import org.gradle.api.Plugin;
 import org.gradle.api.Project;
-import org.indepth.intellibuild.extension.IntelliBuildExtension;
-import org.indepth.intellibuild.task.IntelliBuildTask;
+import sud.indepth.intellibuild.extension.IntelliBuildExtension;
+import sud.indepth.intellibuild.task.IntelliBuildTask;
 
 /**
  * Created by sud on 13/4/19.

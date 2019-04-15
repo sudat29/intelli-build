@@ -1,17 +1,17 @@
-package org.indepth.intellibuild.task;
+package sud.indepth.intellibuild.task;
 
 import org.gradle.api.DefaultTask;
 import org.gradle.api.Project;
 import org.gradle.api.tasks.TaskAction;
-import org.indepth.intellibuild.extension.IntelliBuildExtension;
-import org.indepth.intellibuild.util.Printer;
+import sud.indepth.intellibuild.extension.IntelliBuildExtension;
+import sud.indepth.intellibuild.util.Printer;
 
 import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static org.indepth.intellibuild.util.CommandExecutor.executeCommand;
-import static org.indepth.intellibuild.util.Printer.println;
+import static sud.indepth.intellibuild.util.CommandExecutor.executeCommand;
+import static sud.indepth.intellibuild.util.Printer.println;
 
 /**
  * Created by sud on 13/4/19.

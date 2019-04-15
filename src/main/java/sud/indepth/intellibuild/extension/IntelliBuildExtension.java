@@ -1,4 +1,4 @@
-package org.indepth.intellibuild.extension;
+package sud.indepth.intellibuild.extension;
 
 /**
  * Created by sud on 13/4/19.
